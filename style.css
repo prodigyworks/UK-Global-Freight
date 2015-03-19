@@ -1,0 +1,74 @@
+td {
+	text-align: left;
+	font-family:tahoma;
+	font-size:11px;
+	color:#636363;
+	line-height:13px;
+}
+
+a {text-decoration:underline;
+   color:#A42914;}
+  
+body { 	margin:0px;padding:0px;}
+span { color:#A42914; font-weight:bold}
+
+
+ul {margin:0; padding:0; list-style:none}
+li {background:url(images/a.gif) center left no-repeat; margin:0 0 0 0px; padding:0 0 0 11px; line-height:16px }
+
+.home img { vertical-align:middle}
+
+.head_link a { color:#ffffff; font-weight:bold}
+.head_link img { margin-right:4px; vertical-align:middle}
+
+.copy { color:#FFFFFF; font-size:9px;}
+.copy a { color:#FFFFFF; font-size:10px; font-weight:bold}
+
+.latest { line-height:15px;}
+
+.map { color:#7D7D7D}
+
+.advantages { font-size:10px;}
+.advantages li { font-size:11px;}
+
+
+
+
+
+.white {color:#ffffff; text-decoration:none}
+
+
+
+
+		
+.form1 { width:174px;
+		height:17px;
+		font-family:tahoma;
+		font-size:11px;
+		border-style: solid;
+		border-width: 1px;
+		border-color:#808080;
+		background-color:#ffffff;
+		color:#5F5F5F;
+		margin-left:0px;
+		margin-right:0px}		
+		
+.textarea { width:174px;
+		height:95px;
+		font-family:tahoma;
+		font-size:11px;
+		border-style: solid;
+		border-width: 1px;
+		border-color:#808080;
+		background-color:#ffffff;
+		color:#5F5F5F;
+		margin-left:0px;
+		margin-right:0px}
+		
+
+a:hover{text-decoration:none;}
+.a:hover{text-decoration:underline;}
+
+
+
+
