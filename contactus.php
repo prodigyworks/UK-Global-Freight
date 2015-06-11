@@ -111,7 +111,7 @@ function validate_form() {
 
 $(document).ready(function(){
   function initialize() {
-    var myLatlng = new google.maps.LatLng(53.066155, -1.375120);
+    var myLatlng = new google.maps.LatLng(52.922537, -1.281652);
     var mapOptions = {
       zoom: 12,
       center: myLatlng
@@ -122,9 +122,9 @@ $(document).ready(function(){
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        '<h4 id="firstHeading" class="firstHeading">Allegro Transport Ltd.</h4>'+
+        '<h4 id="firstHeading" class="firstHeading">UK Global Freight Ltd.</h4>'+
         '<div id="bodyContent">'+
-        '<p>Birchwood Way, Cotes Park Industrial Estate, Somercotes, Alfreton, Derbyshire, DE55 4QQ</p>'+
+        '<p>Stapleford, Nottinghamshire, NG9 7BT</p>'+
         '</div>'+
         '</div>';
 
@@ -136,7 +136,7 @@ $(document).ready(function(){
     var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-        title: 'Allegro Transport Ltd.'
+        title: 'UK Global Freight Ltd.'
     });
 
     infowindow.open(map,marker);
@@ -164,36 +164,19 @@ $(document).ready(function(){
 				<ul>
 					<li>
 						<i class="fa fa-map-marker fl"></i>
-						<div>Birchwood Way, <br>
-						Cotes Park Industrial Estate <br />
-					
-						Somercotes, Alfreton, Derbyshire <br />
-						DE55 4QQ United Kingdom</div>
-					</li>
-					<li>
-						<i class="fa fa-phone fl"></i>
-						<div>+44 (0) 1773 541 771</div>
-					</li>
-					<li>
-						<i class="fa fa-print fl"></i>
-						<div>+44 (0) 1773 541 774</div>
+						<div>Stapleford, <br>
+						NG9 7BT United Kingdom</div>
 					</li>
 					<li>
 						<i class="fa fa-envelope fl"></i>
 						<div>
-							<a href="mailto:traffic@allegrotransport.co.uk">traffic@allegrotransport.co.uk</a>
+							<a href="mailto:traffic@ukglobalfreight.com">info@ukglobalfreight.com</a>
 						</div>
 					</li>
 					<li>
 						<i class="fa fa-globe fl"></i>
 						<div>
-							<a href="http://www.allegrotransport.co.uk">www.allegrotransport.co.uk</a>
-						</div>
-					</li>
-					<li>
-						<i class="fa fa-facebook-square fl"></i>
-						<div>
-							<a href="https://www.facebook.com/allegrotransport">Facebook page</a>
+							<a href="http://www.ukglobalfreight.com">www.ukglobalfreight.com</a>
 						</div>
 					</li>
 				</ul>
